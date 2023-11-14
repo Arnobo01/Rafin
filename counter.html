@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+body{ counter-reset: Chapter;
+
+}
+p::before{ counter-increment: Chapter 5;
+    content:"Chapter-" 
+    counter(Chapter) ":";
+
+color:red
+
+}
+
+
+
+
+</style>
+<body>
+  <p> HTML</p>
+<p> CSS</p>
+<p> JAVA</p>
+<p> CC+</p>
+
+</body>
+</html>
